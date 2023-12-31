@@ -89,3 +89,26 @@ history -a
 declare -p IFS
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man while
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help while
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote remove coderoad
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/PeterKwok1/FCC-Student-Database.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
