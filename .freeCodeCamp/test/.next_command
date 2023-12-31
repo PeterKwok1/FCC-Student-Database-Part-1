@@ -52,3 +52,4 @@ clear
 psql --username=freecodecamp --dbname=students
 chmod +x students.csv
 chmod +x insert_data.sh
+__vsc_prompt_cmd_original
