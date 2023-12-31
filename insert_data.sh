@@ -3,5 +3,4 @@
 
 cat courses.csv | while IFS="," read MAJOR COURSE
 do
-    echo $MAJOR $COURSE
 done
