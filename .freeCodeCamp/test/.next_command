@@ -77,3 +77,15 @@ history -a
 ./insert_data.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+declare -[
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+declare -o
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+declare -p
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+declare -p IFS
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
