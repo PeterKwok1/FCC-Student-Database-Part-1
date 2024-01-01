@@ -165,3 +165,4 @@ sudo service postgresql restart
 ./insert_data.sh
 declare -p IFS
 ./insert_data.sh
+cp courses.csv courses_test.csv
