@@ -164,3 +164,4 @@ psql --username=freecodecamp --dbname=student
 sudo service postgresql restart
 ./insert_data.sh
 declare -p IFS
+./insert_data.sh
