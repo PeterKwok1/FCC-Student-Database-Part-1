@@ -215,3 +215,4 @@ enter --username=freecodecamp --dbname=students
 sudo service postgresql restart
 psql --username=freecodecamp --dbname=students
 ./insert_data.sh
+psql --username=freecodecamp --dbname=students
