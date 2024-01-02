@@ -227,3 +227,9 @@ $[[ hello!=hello ]]
 $ [[ hello=bello ]]
 [[ "hello" = "bello" ]]
 [[ "hello" = "hello" ]]
+psql --username=freecodecamp --dbname=student
+psql username=freecodecamp --dbname=students
+psql username=freecodecamp --dbname=students
+psql username=freecodecamp --dbname=students
+psql freecodecamp students
+psql --username=freecodecamp --dbname=students
