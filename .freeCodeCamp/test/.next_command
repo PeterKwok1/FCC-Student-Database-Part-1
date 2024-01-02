@@ -233,3 +233,4 @@ psql username=freecodecamp --dbname=students
 psql username=freecodecamp --dbname=students
 psql freecodecamp students
 psql --username=freecodecamp --dbname=students
+./insert_data.sh
