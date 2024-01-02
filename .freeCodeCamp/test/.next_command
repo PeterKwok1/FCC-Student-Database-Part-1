@@ -218,3 +218,12 @@ psql --username=freecodecamp --dbname=students
 psql --username=freecodecamp --dbname=students
 ./insert_data.sh
 psql --username=freecodecamp --dbname=students
+help [[
+help test
+[[ -n hello=hello ]]
+[[ -n hello!=hello ]]
+$[[ hello!=hello ]]
+[[ -n hello=bello ]]
+$ [[ hello=bello ]]
+[[ "hello" = "bello" ]]
+[[ "hello" = "hello" ]]
