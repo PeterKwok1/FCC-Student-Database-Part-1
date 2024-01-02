@@ -5,6 +5,8 @@ PSQL="psql -X --username=freecodecamp --dbname=students --no-align --tuples-only
 
 cat courses_test.csv | while IFS="," read MAJOR COURSE
 do
+    if [[ $MAJOR != major  ]] 
+    then 
     # get major_id
     MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
     # if not found
@@ -20,4 +22,5 @@ do
     # insert course
     # get new course_id
     # insert into majors_courses
+    fi
 done
