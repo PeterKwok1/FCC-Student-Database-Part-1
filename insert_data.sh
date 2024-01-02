@@ -22,6 +22,7 @@ do
         $MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
     fi
     # get course_id
+    COURSE_ID=$($PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
     # if not found
     # insert course
     # get new course_id
