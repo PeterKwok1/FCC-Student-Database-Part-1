@@ -374,3 +374,4 @@ sudo service postgresql restart
 psql --username=freecodecamp --dbname=students
 ./insert_data.sh
 ls --color=auto
+rm students_test.csv
