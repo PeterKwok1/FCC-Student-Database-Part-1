@@ -373,3 +373,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 sudo service postgresql restart
 psql --username=freecodecamp --dbname=students
 ./insert_data.sh
+ls --color=auto
