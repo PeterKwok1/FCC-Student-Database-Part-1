@@ -302,3 +302,9 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 clear
 psql --username=freecodecamp --dbname=students
 ./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
