@@ -372,3 +372,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 sudo service postgresql restart
 psql --username=freecodecamp --dbname=students
+./insert_data.sh
